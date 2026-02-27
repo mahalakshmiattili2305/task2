@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3",
     "vite": "^8.0.0-beta.13",
     "vite-plugin-nunjucks": "^0.2.0"
   },

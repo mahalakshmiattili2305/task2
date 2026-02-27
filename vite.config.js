@@ -3,7 +3,7 @@ import nunjucks from "vite-plugin-nunjucks";
 import { resolve } from "path";
 
 export default defineConfig({
-  root: "src",
+  root: resolve(process.cwd(), 'src'),
   build: {
     outDir: "../dist",
     emptyOutDir: true,
